@@ -1,0 +1,47 @@
+body{
+    background-image: url("./FAV.jpg");
+    background-size: cover;
+    background-position:center ;
+    background-repeat: no-repeat;
+}
+.nbc{
+    background-color: green;
+    display: flex;
+    flex-direction: row;
+    border-width: 2px;
+    border-color: black;
+    border-style: dashed;
+    border-radius: 20px;
+    
+
+}
+ul{
+    list-style:none;
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+}
+li{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+h2{
+    font-size: 56px;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: ;
+    transition: all 1s;
+
+}
+h2:hover{
+    color: darkgreen;
+    transition: all 1s;
+}
+h2:active{
+    color: darkgreen;
+    transition: all 1s;
+}
+p{
+   background-color: green; 
+}
